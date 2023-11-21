@@ -3236,7 +3236,7 @@
 									"mode": "graphql",
 									"graphql": {
 										"query": "mutation ConfigOffer($sourceOfferId: ID!, $input: ConfigureOfferInput!) {\r\n  configOffer(sourceOfferId: $sourceOfferId, input: $input) {\r\n    channel {\r\n      slug\r\n    }\r\n    id\r\n    offerType\r\n    general {\r\n      name\r\n      description\r\n      shortDescription\r\n    }\r\n    acceptanceStatus {\r\n      canBeAccepted\r\n      reasonsList {\r\n        code\r\n        description\r\n      }\r\n    }\r\n    priceList {\r\n      firstPrice {\r\n        amount {\r\n          base\r\n          result\r\n          currency\r\n        }\r\n      }\r\n      basePrice {\r\n        amount {\r\n          base\r\n          result\r\n          currency\r\n        }\r\n      }\r\n      regularPrice {\r\n        amount {\r\n          base\r\n          result\r\n          currency\r\n        }\r\n        chargingInterval {\r\n          duration\r\n          unit\r\n        }\r\n      }\r\n    }\r\n    validFor {\r\n      from\r\n      to\r\n    }\r\n    customer {\r\n      msisdn\r\n    }\r\n    type\r\n    specification {\r\n      id\r\n      slug\r\n      version\r\n      general {\r\n        name\r\n        description\r\n        shortDescription\r\n        content {\r\n          name\r\n          description\r\n          mimeType\r\n          productContentType\r\n          source\r\n          href\r\n          ordinalNum\r\n          isMain\r\n        }\r\n        aliases {\r\n          type\r\n          alias\r\n        }\r\n      }\r\n      status\r\n      activityStatus\r\n      type\r\n      createdAt\r\n      updatedAt\r\n      publishedAt\r\n      validFor {\r\n        from\r\n        to\r\n      }\r\n      items {\r\n        products {\r\n          alias\r\n          parentAlias\r\n          canBeDisabled\r\n          enabledByDefault\r\n        }\r\n        services {\r\n          alias\r\n          general {\r\n            name\r\n            description\r\n            shortDescription\r\n          }\r\n          canBeDisabled\r\n          configurableBy\r\n          enabledByDefault\r\n          type\r\n          parameters {\r\n            alias\r\n            serviceSpecParamCode\r\n            type\r\n            name\r\n            configurableBy\r\n            valueType\r\n            unit\r\n            availableValuesAsList\r\n            valueV2\r\n            defaultValueV2\r\n          }\r\n          externalId\r\n        }\r\n        resources {\r\n          alias\r\n          general {\r\n            name\r\n            description\r\n            shortDescription\r\n          }\r\n          canBeDisabled\r\n          enabledByDefault\r\n          sku\r\n          vendor\r\n          partNumber\r\n          allAttributes {\r\n            keyValue {\r\n              key\r\n              value\r\n            }\r\n          }\r\n          isMain\r\n        }\r\n        bundleItems {\r\n          alias\r\n          productSpecifications {\r\n            id\r\n            slug\r\n            version\r\n            status\r\n            activityStatus\r\n            type\r\n            createdAt\r\n            updatedAt\r\n            publishedAt\r\n            isStrategy\r\n          }\r\n          canBeDisabled\r\n          enabledByDefault\r\n          general {\r\n            name\r\n            description\r\n            shortDescription\r\n          }\r\n          isMain\r\n          occurrenceRule {\r\n            from\r\n            to\r\n          }\r\n          ordinalNum\r\n        }\r\n      }\r\n      fulfillmentConfiguration {\r\n        charging {\r\n          tariffComponents {\r\n            id\r\n            description\r\n            className\r\n            type\r\n            specificationV2 {\r\n              id\r\n              version\r\n              slug\r\n              className\r\n              type\r\n              name\r\n              description\r\n              status\r\n              createdAt\r\n              updatedAt\r\n              publishedAt\r\n            }\r\n          }\r\n        }\r\n      }\r\n    }\r\n    touchPointView {\r\n      parameters {\r\n        customerEditable {\r\n          marketingName\r\n          alias\r\n          itemAlias\r\n          valueType\r\n          unit\r\n          availableValuesAsRange {\r\n            valueFrom\r\n            valueTo\r\n            valueStep\r\n          }\r\n          paramValue\r\n          defaultParamValue\r\n          valueName\r\n        }\r\n        predefined {\r\n          marketingName\r\n          alias\r\n          valueType\r\n          unit\r\n          itemAlias\r\n          defaultParamValue\r\n          paramValue\r\n          valueName\r\n        }\r\n      }\r\n      items {\r\n        customerEditable {\r\n          ... on ProductItem {\r\n            alias\r\n            general {\r\n              name\r\n              description\r\n              shortDescription\r\n            }\r\n            isEnabled\r\n            acceptanceStatus {\r\n              canBeAccepted\r\n              reasonsList {\r\n                code\r\n                description\r\n              }\r\n            }\r\n          }\r\n          ... on ServiceItem {\r\n            alias\r\n            general {\r\n              name\r\n              description\r\n              shortDescription\r\n            }\r\n            isEnabled\r\n            parentAlias\r\n          }\r\n          ... on ResourceItem {\r\n            alias\r\n            general {\r\n              name\r\n              description\r\n              shortDescription\r\n            }\r\n            isEnabled\r\n            resourceInfo {\r\n              sku\r\n              vendor\r\n              isMain\r\n              attributes {\r\n                keyValue {\r\n                  key\r\n                  value\r\n                }\r\n              }\r\n            }\r\n            parentAlias\r\n          }\r\n        }\r\n        predefined {\r\n          ... on ProductItem {\r\n            alias\r\n            general {\r\n              name\r\n              description\r\n              shortDescription\r\n            }\r\n            isEnabled\r\n            parentAlias\r\n            acceptanceStatus {\r\n              canBeAccepted\r\n              reasonsList {\r\n                code\r\n                description\r\n              }\r\n            }\r\n          }\r\n          ... on ServiceItem {\r\n            alias\r\n            general {\r\n              name\r\n              description\r\n              shortDescription\r\n            }\r\n            isEnabled\r\n            parentAlias\r\n          }\r\n          ... on ResourceItem {\r\n            alias\r\n            general {\r\n              name\r\n              description\r\n              shortDescription\r\n            }\r\n            isEnabled\r\n            resourceInfo {\r\n              sku\r\n              vendor\r\n              isMain\r\n              attributes {\r\n                keyValue {\r\n                  key\r\n                  value\r\n                }\r\n              }\r\n            }\r\n            parentAlias\r\n          }\r\n        }\r\n      }\r\n    }\r\n    orderItems {\r\n      products {\r\n        offerId\r\n        parentAlias\r\n        alias\r\n      }\r\n      services {\r\n        alias\r\n        externalId\r\n        parameters {\r\n          alias\r\n          serviceSpecParamCode\r\n          name\r\n          visible\r\n          unit\r\n          valueType\r\n          paramValue\r\n          valueName\r\n        }\r\n      }\r\n      resources {\r\n        alias\r\n        specification {\r\n          id\r\n          version\r\n          slug\r\n          status\r\n          createdAt\r\n          updatedAt\r\n          publishedAt\r\n          sku\r\n          vendor\r\n          partNumber\r\n          purchasePrice {\r\n            amount\r\n            currency\r\n          }\r\n          merchant {\r\n            id\r\n          }\r\n        }\r\n      }\r\n    }\r\n    activeTariffComponent {\r\n      id\r\n      type\r\n      specification {\r\n        id\r\n        version\r\n        slug\r\n        className\r\n        type\r\n        name\r\n        description\r\n        status\r\n        createdAt\r\n        updatedAt\r\n        publishedAt\r\n      }\r\n      description\r\n      availableForSale\r\n      isEnabled\r\n      chargingInterval {\r\n        duration\r\n        unit\r\n      }\r\n      paymentDateShifts {\r\n        duration {\r\n          duration\r\n          unit\r\n        }\r\n        reason {\r\n          slug\r\n          description\r\n        }\r\n      }\r\n    }\r\n    tariffComponents {\r\n      id\r\n      type\r\n      description\r\n      availableForSale\r\n      isEnabled\r\n    }\r\n  }\r\n}",
-										"variables": "{\r\n    \"sourceOfferId\": \"{{head_bundle_id}}\",\r\n    \"input\": {\r\n        \"parameters\": [\r\n            {\r\n                \"alias\": \"dlyasvoih/quota_sms\",\r\n                \"value\": \"200\"\r\n            },\r\n            {\r\n                \"alias\": \"dlyasvoih/quota_voice\",\r\n                \"value\": \"500\"\r\n            },\r\n            {\r\n                \"alias\": \"dlyasvoih/quota_internet\",\r\n                \"value\": \"100\"\r\n            }\r\n        ],\r\n        \"items\": [\r\n            {\r\n                \"alias\": \"dlyasvoih/bezlimitnyy-internet-messendzhery\",\r\n                \"isEnabled\": true\r\n            },\r\n            {\r\n                \"alias\": \"dlyasvoih/domashniy-paket\",\r\n                \"isEnabled\": false\r\n            },\r\n            {\r\n                \"alias\": \"dlyasvoih/rezhim-modema\",\r\n                \"isEnabled\": false\r\n            }\r\n        ]\r\n    }\r\n}"
+										"variables": "{\r\n    \"sourceOfferId\": \"{{head_bundle_id}}\",\r\n    \"input\": {\r\n        \"parameters\": [\r\n            {\r\n                \"alias\": \"dlyasvoih/quota_sms\",\r\n                \"value\": \"200\"\r\n            },\r\n            {\r\n                \"alias\": \"dlyasvoih/quota_voice\",\r\n                \"value\": \"1000\"\r\n            },\r\n            {\r\n                \"alias\": \"dlyasvoih/quota_internet\",\r\n                \"value\": \"50\"\r\n            }\r\n        ],\r\n        \"items\": [\r\n            {\r\n                \"alias\": \"dlyasvoih/bezlimitnyy-internet-messendzhery\",\r\n                \"isEnabled\": true\r\n            },\r\n            {\r\n                \"alias\": \"dlyasvoih/domashniy-paket\",\r\n                \"isEnabled\": false\r\n            },\r\n            {\r\n                \"alias\": \"dlyasvoih/rezhim-modema\",\r\n                \"isEnabled\": false\r\n            }\r\n        ]\r\n    }\r\n}"
 									}
 								},
 								"url": "{{url_stage}}"
@@ -5996,104 +5996,104 @@
 	],
 	"variable": [
 		{
-			"id": "f7a27b05-020f-4327-bdc4-36235049748f",
+			"id": "c1ee2425-585d-45f4-89cf-7f95d2a74e56",
 			"key": "url_stage",
 			"value": "https://gql.enp-stage.mts-corp.ru/graphql",
 			"type": "string"
 		},
 		{
-			"id": "9717bc58-8e7e-462d-ac8d-569e8029b9f4",
+			"id": "7cc41802-1c0c-409a-9a1a-7eb520e54374",
 			"key": "head_bundle_id",
 			"value": ""
 		},
 		{
-			"id": "4511223c-d377-4b5c-83ad-c815cf6bf162",
+			"id": "b44ebe9a-312f-4434-94e0-635068f0dd37",
 			"key": "offer_tp_id",
 			"value": ""
 		},
 		{
-			"id": "662ab882-4e4e-4012-a0b4-4dccde4c464d",
+			"id": "2233f96d-757c-45cf-9266-f6b8e5a353c4",
 			"key": "offer_sim_id",
 			"value": ""
 		},
 		{
-			"id": "f6d0ba7b-4305-4727-b50c-8d7c3e579cc8",
+			"id": "2c53c703-4154-4bac-9cb2-4ed0bcd4fd46",
 			"key": "offer_nomer_id",
 			"value": ""
 		},
 		{
-			"id": "945c7d9a-4e43-4683-8542-d555b80ac2e0",
+			"id": "558b674c-c6d0-4d5b-8e87-cc519521ad5d",
 			"key": "time_slot_id",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "cfd47244-b62f-4d69-b11e-cd0cf26906f6",
+			"id": "2af90815-93cb-40d5-ad0d-f85ce1597a22",
 			"key": "delivery_OfferId",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "a6a9568b-1a01-4f89-9c97-a577234edad7",
+			"id": "6eb22b70-773f-46a6-adb1-566fe74d280d",
 			"key": "msisdn",
 			"value": ""
 		},
 		{
-			"id": "6bcf168a-243b-467d-92bc-69e0da9f411d",
+			"id": "450d7c8a-c703-4cbe-9ee0-42be610c4e58",
 			"key": "accepted_delivery_OfferId",
 			"value": ""
 		},
 		{
-			"id": "2eb954c8-4135-40b4-b327-66cfdb84708d",
+			"id": "f5e386e1-72ea-4508-9d8c-e539f3dfe293",
 			"key": "orderID",
 			"value": ""
 		},
 		{
-			"id": "fbd35259-8efa-42d6-84db-b773d2b195d4",
+			"id": "db878646-beb8-4195-8965-8984b73c8a0c",
 			"key": "paymentSessionId",
 			"value": ""
 		},
 		{
-			"id": "414d7447-87b8-47ab-acc2-c86ccf4bb1b1",
+			"id": "f789038e-40bc-49c7-8d80-5d418438171f",
 			"key": "productID",
 			"value": ""
 		},
 		{
-			"id": "efa3a3e7-8385-4710-b055-67711dec5b17",
+			"id": "ef2ee28c-6f62-43b2-b282-55dfadad9584",
 			"key": "new_offer_tp_id",
 			"value": ""
 		},
 		{
-			"id": "d7e51654-5301-405c-97bc-19ce9edfa9dd",
+			"id": "a3cbf871-c530-4bc4-8479-aba9101368c0",
 			"key": "new_offer_nomer_id",
 			"value": ""
 		},
 		{
-			"id": "e23be739-38fc-4026-950c-60d0f88b61cc",
+			"id": "d93ff139-c5d5-4a34-8244-9d9ba7492533",
 			"key": "url_prodlike",
 			"value": "https://ep-prodlike.mts-corp.ru/",
 			"type": "string"
 		},
 		{
-			"id": "b0a17d6a-fca2-4e6d-b341-b554905d1e65",
+			"id": "e9322519-ed71-4dd7-bb98-a5650e567bea",
 			"key": "telco_realese",
 			"value": "https://release.telco.mts.ru",
 			"type": "string"
 		},
 		{
-			"id": "5dc92574-a807-4e45-8e9c-e5e84e2487ce",
+			"id": "f3a921bb-39b8-437f-99a4-5403ef352126",
 			"key": "telco_dev",
 			"value": "http://telcoapigateway-api.dev.mts-corp.ru/resource/reservation/availabilityCheck",
 			"type": "string"
 		},
 		{
-			"id": "b4778d9f-9249-4482-8320-0bc78a277ba7",
+			"id": "cd65f028-c57d-454c-a876-a7c7b93053b8",
 			"key": "telco_test",
 			"value": "https://telcoapigateway-api.test.mts-corp.ru",
 			"type": "string"
 		},
 		{
-			"id": "1c2aae4d-f391-4177-93ca-1d78b796de0b",
+			"id": "381984f2-fcf9-493d-bda8-cd7ee1f343f4",
 			"key": "offerID_mod_1",
 			"value": ""
 		}
