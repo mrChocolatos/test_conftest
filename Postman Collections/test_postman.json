@@ -3158,7 +3158,7 @@
 									"mode": "graphql",
 									"graphql": {
 										"query": "query DynBandleTP_SIM_TARIFF($filter: ProductOfferFilterInput) {\n  productOffers(filter: $filter) {\n    edges {\n      node {\n        id\n        acceptanceStatus {\n          canBeAccepted\n          reasonsList {\n            code\n            description\n          }\n        }\n        channel{\n            slug\n        }\n        customer {\n            msisdn\n        }\n        orderItems {\n          products {\n            alias\n            general {\n              name\n              description\n              shortDescription\n            }\n            resources {\n              specification {\n                general {\n                  name\n                  description\n                }\n              }\n            }\n          }\n          services {\n            alias\n          }\n        }\n        specification {\n          id\n          version\n        }\n        general {\n          name\n          description\n          shortDescription\n        }\n        offerProvider {\n          externalProductId\n          source\n        }\n        offerType\n        priceList {\n          basePrice {\n            amount {\n              base\n              result\n            }\n          }\n          connectionPrice {\n            amount {\n              base\n              result\n            }\n          }\n          firstPrice {\n            amount {\n              base\n              result\n            }\n          }\n          regularPrice {\n            amount {\n              base\n              result\n            }\n            estimatedStartDate\n            chargingInterval {\n              duration\n              unit\n            }\n          }\n        }\n        type\n        validFor {\n          to\n          from\n        }\n        touchPointView {\n          bundlingPossibility {\n            alias\n            selectedOffers {\n              general {\n              name\n              }\n              id\n              priceList {\n                firstPrice {\n                  amount {\n                    base\n                    result\n                  }\n                }\n              }\n            }\n          }\n        }\n        reservation {\n            productAlias\n            alias\n            id\n            validFor {\n                from\n                to\n            }\n            source\n            reservationObject\n            reservationAttributes {\n                key\n            }\n        }\n        additionalOfferContext {\n            code\n            value\n            valueObject {\n                boolValue\n            }\n        }\n      }\n    }\n  }\n}",
-										"variables": "{\n    \"filter\": {\n        \"customer\": {\n            \"msisdn\": \"79169320838\"},\n        \"salesChannel\": {\n            \"id\": \"0fd6e619-096e-411f-843a-171dff0b32f4\",\n            \"slug\": \"app//sales-driver\"\n        },\n        \"productSpecification\": {\n            \"ids\": [\n                \"a5f198db-ce3f-4b01-82b6-f7e48c5941bf\"\n            ],\n            \"slugs\": [\n                \"dyn-bundle-sim-tp-nomer\"\n            ]\n        },\n        \"offerSources\": [\n            \"EP\",\n            \"TELCO_PLATFORM\"\n        ],\n        \"additionalOfferContext\": [\n            {\n                \"code\": \"salesRegion\",\n                \"valueType\": \"STRING\",\n                \"value\": \"7700000000000\"\n            },\n            {\n                \"code\": \"category\",\n                \"valueType\": \"STRING\",\n                \"value\": \"N\",\n                \"valueObject\": null\n            },\n            {\n                \"code\": \"reservation\",\n                \"valueType\": \"BOOLEAN\",\n                \"valueObject\": {\n                    \"boolValue\": true\n                }\n            },\n            {\n                \"code\": \"mask\",\n                \"valueType\": \"STRING\",\n                \"value\": \"79%\"\n            }\n        ]\n    }\n}"
+										"variables": "{\n    \"filter\": {\n        \"customer\": {\n            \"msisdn\": \"79169320833\"},\n        \"salesChannel\": {\n            \"id\": \"0fd6e619-096e-411f-843a-171dff0b32f4\",\n            \"slug\": \"app//sales-driver\"\n        },\n        \"productSpecification\": {\n            \"ids\": [\n                \"a5f198db-ce3f-4b01-82b6-f7e48c5941bf\"\n            ],\n            \"slugs\": [\n                \"dyn-bundle-sim-tp-nomer\"\n            ]\n        },\n        \"offerSources\": [\n            \"EP\",\n            \"TELCO_PLATFORM\"\n        ],\n        \"additionalOfferContext\": [\n            {\n                \"code\": \"salesRegion\",\n                \"valueType\": \"STRING\",\n                \"value\": \"7700000000000\"\n            },\n            {\n                \"code\": \"category\",\n                \"valueType\": \"STRING\",\n                \"value\": \"N\",\n                \"valueObject\": null\n            },\n            {\n                \"code\": \"reservation\",\n                \"valueType\": \"BOOLEAN\",\n                \"valueObject\": {\n                    \"boolValue\": true\n                }\n            },\n            {\n                \"code\": \"mask\",\n                \"valueType\": \"STRING\",\n                \"value\": \"79%\"\n            }\n        ]\n    }\n}"
 									}
 								},
 								"url": "{{url_stage}}"
@@ -5996,104 +5996,104 @@
 	],
 	"variable": [
 		{
-			"id": "df4b159b-8f2b-48d6-9bd4-cdf993375565",
+			"id": "c3648667-9047-44fc-8cf2-fa2bc0e0be9e",
 			"key": "url_stage",
 			"value": "https://gql.enp-stage.mts-corp.ru/graphql",
 			"type": "string"
 		},
 		{
-			"id": "9f16a2c6-1f3d-4963-80f4-851f245a2053",
+			"id": "98e2072a-90b5-4201-8819-087c5864fc2d",
 			"key": "head_bundle_id",
 			"value": ""
 		},
 		{
-			"id": "80dc4205-e9c4-4b24-ba32-3a029e34e71e",
+			"id": "1bba6dd0-530a-40ac-bfc6-81c7cd124385",
 			"key": "offer_tp_id",
 			"value": ""
 		},
 		{
-			"id": "083489eb-73aa-4ec2-bb1a-2ae3bb06a051",
+			"id": "ace22203-d6fe-477c-9b7b-5d6c0e5f8fb6",
 			"key": "offer_sim_id",
 			"value": ""
 		},
 		{
-			"id": "5038a3c1-4f14-42bc-81f1-52b5b973268a",
+			"id": "c92704b3-e49f-4aa9-8106-61ae9c01fc2e",
 			"key": "offer_nomer_id",
 			"value": ""
 		},
 		{
-			"id": "99677c2f-bf27-430e-a94c-66f366b60f0d",
+			"id": "7f5180d1-4f21-4dd3-acb5-a81b3a470013",
 			"key": "time_slot_id",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "9c55426c-a74a-4fe8-bb33-ceabd2b84f3e",
+			"id": "1f5a8ea8-ad8c-4245-964b-edfdc387549b",
 			"key": "delivery_OfferId",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "a84b1671-5411-45d2-b2c8-cbec06da87f1",
+			"id": "ce942ee0-e0a5-4b81-94a2-0bf0e5faf8a8",
 			"key": "msisdn",
 			"value": ""
 		},
 		{
-			"id": "4ff4cece-7031-45ab-94d2-54b9fde79109",
+			"id": "3ae113fb-9b1e-460e-8a69-f2eaa2692cb6",
 			"key": "accepted_delivery_OfferId",
 			"value": ""
 		},
 		{
-			"id": "8cc163d7-46a1-4009-bd11-50a9abecc799",
+			"id": "d53de6ed-b884-41de-89d0-847037ac45b1",
 			"key": "orderID",
 			"value": ""
 		},
 		{
-			"id": "8d04bfcc-2b69-4f5d-be76-da274004db2c",
+			"id": "bb5c886f-8663-4d22-8fbd-7a7d983de7a6",
 			"key": "paymentSessionId",
 			"value": ""
 		},
 		{
-			"id": "47c712a9-9bc7-4ab4-ade5-609245c0d07f",
+			"id": "6c5c90ed-65b2-45d6-822f-ac06423b12c5",
 			"key": "productID",
 			"value": ""
 		},
 		{
-			"id": "a5a52c88-f2c8-4011-b2aa-3e41809b3fa7",
+			"id": "41f4c86d-036c-4f8c-a640-e31d3fa21be9",
 			"key": "new_offer_tp_id",
 			"value": ""
 		},
 		{
-			"id": "9f703022-ae39-46d5-b10b-c44b016dbb0d",
+			"id": "817d5b2a-2ff7-4947-ae86-d0d4d664fa2c",
 			"key": "new_offer_nomer_id",
 			"value": ""
 		},
 		{
-			"id": "218ba229-efe9-4ad5-aa2c-c6999da9b52e",
+			"id": "ce2fb7a5-8177-4915-8fc6-2c5ec8dcafe2",
 			"key": "url_prodlike",
 			"value": "https://ep-prodlike.mts-corp.ru/",
 			"type": "string"
 		},
 		{
-			"id": "3a51704e-784a-4c76-8f06-85e60c620986",
+			"id": "098e6b3a-c098-4df7-901e-29c24c06c52f",
 			"key": "telco_realese",
 			"value": "https://release.telco.mts.ru",
 			"type": "string"
 		},
 		{
-			"id": "ca1e6b8d-7e5d-4293-a5e5-6519133382af",
+			"id": "ec150dc3-34d3-4c30-b2ee-fdef4e073686",
 			"key": "telco_dev",
 			"value": "http://telcoapigateway-api.dev.mts-corp.ru/resource/reservation/availabilityCheck",
 			"type": "string"
 		},
 		{
-			"id": "79030b75-8717-44f9-bf5c-93bffdf77bc8",
+			"id": "a24d5a53-b3b4-4e35-a1dd-98b880909ee5",
 			"key": "telco_test",
 			"value": "https://telcoapigateway-api.test.mts-corp.ru",
 			"type": "string"
 		},
 		{
-			"id": "9339f76b-bee5-4180-b46a-afd1717499bc",
+			"id": "6cb7290a-b516-4789-8d57-ef11e4dda6f4",
 			"key": "offerID_mod_1",
 			"value": ""
 		}
