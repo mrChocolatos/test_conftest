@@ -1105,7 +1105,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://10.97.137.90:9184/ILCRM/CustomerInformation.svc?wsdl",
+							"raw": "http://10.97.137.90:9184/ILCRM/CustomerInformation.svc?singleWsdl",
 							"protocol": "http",
 							"host": [
 								"10",
@@ -1120,7 +1120,7 @@
 							],
 							"query": [
 								{
-									"key": "wsdl",
+									"key": "singleWsdl",
 									"value": null
 								}
 							]
@@ -6055,104 +6055,104 @@
 	],
 	"variable": [
 		{
-			"id": "2f6236e0-cc25-4fac-9056-2fba42cc02df",
+			"id": "91d024f5-f18f-4663-a461-93dbde9c29e7",
 			"key": "url_stage",
 			"value": "https://gql.enp-stage.mts-corp.ru/graphql",
 			"type": "string"
 		},
 		{
-			"id": "328ac03e-1a80-419a-8db3-d5073f5de59a",
+			"id": "482bc8d8-1894-4685-b5f1-f408f17caa01",
 			"key": "head_bundle_id",
 			"value": ""
 		},
 		{
-			"id": "c4138d87-d4ca-4094-b2ce-07bb60b2965e",
+			"id": "35f0665f-fdb0-45fd-be9a-dd93b47f252b",
 			"key": "offer_tp_id",
 			"value": ""
 		},
 		{
-			"id": "813d8597-828b-4e32-9be8-98bc7ab8686c",
+			"id": "d61759bb-ab28-48db-8096-f3c1bd911b91",
 			"key": "offer_sim_id",
 			"value": ""
 		},
 		{
-			"id": "02cb28b1-c4d8-436a-a3de-56a593b0c781",
+			"id": "b401ded6-1ecd-42a7-b495-311d6c7b1cf4",
 			"key": "offer_nomer_id",
 			"value": ""
 		},
 		{
-			"id": "7872e95c-4dcf-4c94-87a0-fcc2bcdc2499",
+			"id": "6c43a18e-533d-4346-87ef-df95304360ee",
 			"key": "time_slot_id",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "427e6a03-aae6-4db9-a984-d0c95b819030",
+			"id": "f36f0c45-b8cb-4a24-a07c-606fc679da89",
 			"key": "delivery_OfferId",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "253be92d-73d8-45c2-b10c-f060c93a0c5e",
+			"id": "2b519db2-5a43-4fa7-8422-eaa716f074fb",
 			"key": "msisdn",
 			"value": ""
 		},
 		{
-			"id": "85d2fa66-5143-44e5-8822-b3d3339800cb",
+			"id": "307038d6-d850-45ec-bb7e-f8b01bb326f1",
 			"key": "accepted_delivery_OfferId",
 			"value": ""
 		},
 		{
-			"id": "c65f073b-4c85-4dc7-8d5e-a536e26f6571",
+			"id": "10e631d3-2ec4-47b3-a4cf-b810ac5b872f",
 			"key": "orderID",
 			"value": ""
 		},
 		{
-			"id": "c324fd5f-7b45-46f7-b666-e1ff6e2498bf",
+			"id": "b611be10-e940-49c7-b0e6-4db062fb19ae",
 			"key": "paymentSessionId",
 			"value": ""
 		},
 		{
-			"id": "acbc4ea3-c148-4389-8874-b93eef049e47",
+			"id": "b15f87ca-5f65-4227-96a9-886345eec560",
 			"key": "productID",
 			"value": ""
 		},
 		{
-			"id": "e97d1c42-c18d-4c1d-adc1-fb0f6c164262",
+			"id": "185b0fa1-7554-45e8-b94c-4a59fc0d5dbd",
 			"key": "new_offer_tp_id",
 			"value": ""
 		},
 		{
-			"id": "d2d546f0-864f-45c7-a2db-0ebfd82d00a8",
+			"id": "43532265-cfff-46bf-a7c3-1ee76e3ce95b",
 			"key": "new_offer_nomer_id",
 			"value": ""
 		},
 		{
-			"id": "dbcb47cf-d98e-4d0d-b6a6-eaac64a51772",
+			"id": "a58b38d2-3ccd-4434-a28c-c5c21ea546cf",
 			"key": "url_prodlike",
 			"value": "https://ep-prodlike.mts-corp.ru/",
 			"type": "string"
 		},
 		{
-			"id": "415dfa97-35b0-4d64-b19d-cb03c256e135",
+			"id": "0dc1e20b-d1a1-46b1-a4a1-72dfa2baf6ec",
 			"key": "telco_realese",
 			"value": "https://release.telco.mts.ru",
 			"type": "string"
 		},
 		{
-			"id": "9df7ca13-8fe8-4bcb-a345-b090c0a629b4",
+			"id": "2de68b19-409c-4349-865b-be11f6d0fa3d",
 			"key": "telco_dev",
 			"value": "http://telcoapigateway-api.dev.mts-corp.ru/resource/reservation/availabilityCheck",
 			"type": "string"
 		},
 		{
-			"id": "cbc9c8fc-07cc-4280-9f5a-a266424dbd0d",
+			"id": "76c301bf-8712-49aa-ad0a-855aedfee45e",
 			"key": "telco_test",
 			"value": "https://telcoapigateway-api.test.mts-corp.ru",
 			"type": "string"
 		},
 		{
-			"id": "532160d8-41eb-458e-a52f-ba71105a6eab",
+			"id": "fac9e7dd-6e32-4d0f-92aa-b727e6753baf",
 			"key": "offerID_mod_1",
 			"value": ""
 		}
