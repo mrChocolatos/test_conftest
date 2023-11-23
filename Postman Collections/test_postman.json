@@ -5740,7 +5740,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{ \"terminalType\": \"2\",\n \"clientTerminalId\": \"7860b32b-5504-4304-b0a6-e230246c2b67\",\n  \"deviceName\": \"E6883\", \n  \"deviceModel\": \"AndroidPhone_Widevine_VMX\", \n  \"deviceOS\": \"Android 7.1.1\", \n  \"confirmationCode\": \"314159\", \n  \"deviceExternalId\": \"string\", \n  \"stbSn\": \"string\", \n  \"login\": \"79167818233\"\n  }"
+									"raw": "{ \"terminalType\": \"2\",\n \"clientTerminalId\": \"7860b32b-5504-4304-b0a6-e230246c2b67\",\n  \"deviceName\": \"E6883\", \n  \"deviceModel\": \"AndroidPhone_Widevine_VMX\", \n  \"deviceOS\": \"Android 7.1.1\", \n  \"confirmationCode\": \"314159\", \n  \"deviceExternalId\": \"string\", \n  \"stbSn\": \"string\", \n  \"login\": \"70190002598\"\n  }"
 								},
 								"url": "https://staging.tvh.mts.ru/tvh-public-api-gateway/public/rest/ott/actions/login"
 							},
@@ -6063,104 +6063,104 @@
 	],
 	"variable": [
 		{
-			"id": "41d6bbeb-27f2-425e-90c2-9f9780457410",
+			"id": "006bd907-d987-4bdd-a436-e13a7055f48f",
 			"key": "url_stage",
 			"value": "https://gql.enp-stage.mts-corp.ru/graphql",
 			"type": "string"
 		},
 		{
-			"id": "76229c14-61e6-4d24-b6bb-03a94365852d",
+			"id": "b02ed15d-ae59-44ea-b624-bf555147d9d1",
 			"key": "head_bundle_id",
 			"value": ""
 		},
 		{
-			"id": "25d541cc-65f1-444e-b98a-f3da7396528d",
+			"id": "04ec45e6-5b03-445a-bc4c-c91cd45f9a27",
 			"key": "offer_tp_id",
 			"value": ""
 		},
 		{
-			"id": "1b7fea71-f9e9-4070-8fb3-27f23e5db0e7",
+			"id": "d76ef6b9-7e21-4e39-b377-993cf7ec8fa7",
 			"key": "offer_sim_id",
 			"value": ""
 		},
 		{
-			"id": "9a19fe86-6355-4df6-b7f5-108fa092dfbf",
+			"id": "9118a367-5908-4848-93cc-566168c42c5c",
 			"key": "offer_nomer_id",
 			"value": ""
 		},
 		{
-			"id": "38de6316-2656-45e8-b6d1-a57071df815a",
+			"id": "f7ca3244-4a99-4b26-aaf6-6ffcbbf07a6e",
 			"key": "time_slot_id",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "07a21c4b-0398-439c-9429-04aae070ab44",
+			"id": "61099454-d74d-4953-9528-a356c9d57fcd",
 			"key": "delivery_OfferId",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "b73bea66-34fd-4ac8-ba3a-f21921d8f856",
+			"id": "1639368f-ad16-43cc-beaa-4c7dfb8468df",
 			"key": "msisdn",
 			"value": ""
 		},
 		{
-			"id": "f1c91026-72b0-49de-999b-575fec41995e",
+			"id": "d6992916-cfa9-44d4-b90a-f96531ecd026",
 			"key": "accepted_delivery_OfferId",
 			"value": ""
 		},
 		{
-			"id": "e530b8df-a224-4692-be6b-0a1dd985216a",
+			"id": "e1cd2796-73be-426f-9703-b4795e8c4150",
 			"key": "orderID",
 			"value": ""
 		},
 		{
-			"id": "4d3054b7-97c5-4cd4-b835-2a967dca197d",
+			"id": "6cf634c0-729c-45aa-99d2-daf855a79f90",
 			"key": "paymentSessionId",
 			"value": ""
 		},
 		{
-			"id": "8de47969-f823-43e3-ba1c-c902cc6b9310",
+			"id": "700af61d-9d94-4244-82e7-a93e243f06ed",
 			"key": "productID",
 			"value": ""
 		},
 		{
-			"id": "e4d713e9-f6d8-4692-a747-35ca26c4d55a",
+			"id": "fc988d7f-7dac-428d-a086-cce8dc8658cd",
 			"key": "new_offer_tp_id",
 			"value": ""
 		},
 		{
-			"id": "5d1e709e-6d75-49af-8e23-e7aaa4855084",
+			"id": "78893e7b-554b-4435-9db3-de7cc0f43a21",
 			"key": "new_offer_nomer_id",
 			"value": ""
 		},
 		{
-			"id": "dc36a73c-e519-4a54-8e73-a9836cfe4a05",
+			"id": "bd40c2ba-8559-443e-a206-719e448411f0",
 			"key": "url_prodlike",
 			"value": "https://ep-prodlike.mts-corp.ru/",
 			"type": "string"
 		},
 		{
-			"id": "7c599e92-7d66-45e2-a649-64e2c79de793",
+			"id": "3e1d88f3-f03c-4502-b4aa-778ef3d20abe",
 			"key": "telco_realese",
 			"value": "https://release.telco.mts.ru",
 			"type": "string"
 		},
 		{
-			"id": "6825a755-bd93-4538-9075-b4896e06ff46",
+			"id": "5c762648-f6a4-4ed2-bab7-f719c682eae6",
 			"key": "telco_dev",
 			"value": "http://telcoapigateway-api.dev.mts-corp.ru/resource/reservation/availabilityCheck",
 			"type": "string"
 		},
 		{
-			"id": "994c39fa-02ac-48f5-8bda-1a58fad67ec4",
+			"id": "80eb00d7-cf18-4bcd-b1b4-6b7862c5a28b",
 			"key": "telco_test",
 			"value": "https://telcoapigateway-api.test.mts-corp.ru",
 			"type": "string"
 		},
 		{
-			"id": "8ae69daa-7360-4e94-a5b5-136f21afe6d3",
+			"id": "d2ed6e0a-e353-4c3c-a442-16b5f0e0291d",
 			"key": "offerID_mod_1",
 			"value": ""
 		}
