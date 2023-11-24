@@ -2744,7 +2744,7 @@
 								"variables": "{\r\n  \"filter\": {\r\n    \"offerSources\": \"EP\",\r\n    \"channel\": \"web//personal.mts.ru\",\r\n    \"productSpecification\": {\r\n        \"slugs\": \"dlyasvoih\"\r\n    },\r\n    \"customer\": {\r\n      \"msisdn\": \"79170036985\",\r\n      \"subscriberRegion\": \"138020\"\r\n    }\r\n  }\r\n}"
 							}
 						},
-						"url": "https://gw-test.intp-dev.mts-corp.ru/ep-gql-stage/v1"
+						"url": "{{url_stage}}"
 					},
 					"response": []
 				},
@@ -6063,104 +6063,104 @@
 	],
 	"variable": [
 		{
-			"id": "e85bf220-4902-4e24-9554-136c079caa43",
+			"id": "03d06659-edb2-41aa-86aa-7d4370e8db8e",
 			"key": "url_stage",
 			"value": "https://gql.enp-stage.mts-corp.ru/graphql",
 			"type": "string"
 		},
 		{
-			"id": "3c2c24de-1bc8-4bd3-b37a-4cac45ff4dff",
+			"id": "d6472527-8e51-444f-a37b-5f8b3a87106c",
 			"key": "head_bundle_id",
 			"value": ""
 		},
 		{
-			"id": "f6e8cf8b-e0d3-4f64-8cd4-0b440f4702ac",
+			"id": "39c91c68-6d07-4d5c-8fda-14ee36c322b6",
 			"key": "offer_tp_id",
 			"value": ""
 		},
 		{
-			"id": "7c9a75bd-d8c2-4de7-aa37-61d00597609e",
+			"id": "c85516fb-444d-4126-855a-420bb89b032a",
 			"key": "offer_sim_id",
 			"value": ""
 		},
 		{
-			"id": "93afac0f-9aca-44d5-9b78-8058c1178a73",
+			"id": "12f70b60-d49e-4810-b663-7bf1132e656c",
 			"key": "offer_nomer_id",
 			"value": ""
 		},
 		{
-			"id": "12f2dbd9-cca1-4f52-b45c-c09cc66ef8c7",
+			"id": "b6089ef1-b66f-47dd-944e-cf7cfd206e2d",
 			"key": "time_slot_id",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "07f0ff46-f8bf-4429-ae5f-5fd7f94b4b94",
+			"id": "4022f427-60a2-451c-90e1-38b3ffdea381",
 			"key": "delivery_OfferId",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "e229a26a-3cd2-4924-9873-95ae2ceb7448",
+			"id": "b5cbbc26-25d1-4c99-a6b8-2af49e18dd6f",
 			"key": "msisdn",
 			"value": ""
 		},
 		{
-			"id": "662d1394-dce7-40d1-b5db-794ba9c69192",
+			"id": "fde34e16-3ea0-4c09-90cb-847a1e2dfced",
 			"key": "accepted_delivery_OfferId",
 			"value": ""
 		},
 		{
-			"id": "a2394b1c-5370-4b8a-834b-81d9fbd1bd73",
+			"id": "47696c07-cdb2-4a08-9317-53b2baec6c5a",
 			"key": "orderID",
 			"value": ""
 		},
 		{
-			"id": "91661625-36fb-4932-bad4-1dbac968ded3",
+			"id": "774c8200-26ac-470e-84ca-4a7e521561d6",
 			"key": "paymentSessionId",
 			"value": ""
 		},
 		{
-			"id": "1a2f735a-7b35-4fc2-98fe-2954ab32c7de",
+			"id": "0c483f27-f5e0-4d37-a603-b015b9bce68c",
 			"key": "productID",
 			"value": ""
 		},
 		{
-			"id": "c5dcc9bb-71bf-447e-9a0b-01040d9603dd",
+			"id": "feda6002-f53e-4be9-92dd-d5d116d71be9",
 			"key": "new_offer_tp_id",
 			"value": ""
 		},
 		{
-			"id": "1ac2a078-260a-41ce-9252-5355b2a666ea",
+			"id": "cfcf4322-8fae-44e8-a34a-5fee709af93a",
 			"key": "new_offer_nomer_id",
 			"value": ""
 		},
 		{
-			"id": "7309a435-7f80-4432-ad45-430cb7da602e",
+			"id": "f42f02e8-917a-4eec-98aa-683e56abcebd",
 			"key": "url_prodlike",
 			"value": "https://ep-prodlike.mts-corp.ru/",
 			"type": "string"
 		},
 		{
-			"id": "b22bedda-e781-4d7a-9d68-345848ae514b",
+			"id": "f9c9f4f1-50ca-4697-b5e3-3fc14c041716",
 			"key": "telco_realese",
 			"value": "https://release.telco.mts.ru",
 			"type": "string"
 		},
 		{
-			"id": "33fa639b-7135-4a8e-8a3f-d3e00c940d1d",
+			"id": "ece093cd-4dff-46b1-be77-4fc9570e39ee",
 			"key": "telco_dev",
 			"value": "http://telcoapigateway-api.dev.mts-corp.ru/resource/reservation/availabilityCheck",
 			"type": "string"
 		},
 		{
-			"id": "5888f951-7aa2-426c-9afa-76a088661ce5",
+			"id": "9a111aa4-d206-41f6-bd69-433d576f9f54",
 			"key": "telco_test",
 			"value": "https://telcoapigateway-api.test.mts-corp.ru",
 			"type": "string"
 		},
 		{
-			"id": "c6b3b821-5a45-4967-acc7-aea27483c470",
+			"id": "589937dc-b1cf-404b-a8e5-cc189498f666",
 			"key": "offerID_mod_1",
 			"value": ""
 		}
