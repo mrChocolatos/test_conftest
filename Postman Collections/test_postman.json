@@ -5550,7 +5550,7 @@
 									"mode": "graphql",
 									"graphql": {
 										"query": "mutation TerminateProductInstance($terminateProductInstanceId: ID!, $input: TerminateProductInstanceInputV2!) {\r\n  terminateProductInstance(id: $terminateProductInstanceId, input: $input) {\r\n    modifiedProduct {\r\n      id\r\n      status\r\n    }\r\n  }\r\n}",
-										"variables": "{\r\n  \"input\": {\r\n    \"correlationId\": \"{{$guid}}\"\r\n  },\r\n  \"terminateProductInstanceId\": \"1ee88a6b-a2b4-6190-bcd0-0fa6c68391e0\"  \r\n}"
+										"variables": "{\r\n  \"input\": {\r\n    \"correlationId\": \"{{$guid}}\"\r\n  },\r\n  \"terminateProductInstanceId\": \"1ee88ae8-ce67-6be7-bcd0-061079d79eab\"  \r\n}"
 									}
 								},
 								"url": "{{url_stage}}"
@@ -6063,104 +6063,104 @@
 	],
 	"variable": [
 		{
-			"id": "e8bcc2f4-36fe-497e-bf1c-54bfcd61da00",
+			"id": "a2304378-711a-4a0c-b0f8-251b0895dd55",
 			"key": "url_stage",
 			"value": "https://gql.enp-stage.mts-corp.ru/graphql",
 			"type": "string"
 		},
 		{
-			"id": "4c361179-a51c-4c95-a622-b5f3ca979e41",
+			"id": "65a7a13b-5f31-4a33-be58-efe02f614fb4",
 			"key": "head_bundle_id",
 			"value": ""
 		},
 		{
-			"id": "0d1ef1d5-3dfe-498a-a8a4-c7697a09c586",
+			"id": "aa8e97f5-735d-4145-a8fa-2004fadb3be9",
 			"key": "offer_tp_id",
 			"value": ""
 		},
 		{
-			"id": "3ba515ea-dc75-458a-9586-b37b91f5a645",
+			"id": "44f125ca-1543-413d-9fb4-f634b60a9360",
 			"key": "offer_sim_id",
 			"value": ""
 		},
 		{
-			"id": "b888852f-c8e9-41cb-b2da-7fc805fa76a4",
+			"id": "fff8ec47-a3ef-4c93-92d4-c71f439cc8e1",
 			"key": "offer_nomer_id",
 			"value": ""
 		},
 		{
-			"id": "3c510c5f-5861-40f4-a689-1bf59416d814",
+			"id": "0711cdb9-b30b-4eaa-9f21-f26524f46b60",
 			"key": "time_slot_id",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "d0d850c7-5d0f-46ae-9c1b-b38cd8e2d505",
+			"id": "35746895-c5a5-42e3-be84-0cfad640c502",
 			"key": "delivery_OfferId",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "ca3224fe-faf7-4154-a6d6-277c9193b346",
+			"id": "b5303255-eeca-46db-8eec-889e88676317",
 			"key": "msisdn",
 			"value": ""
 		},
 		{
-			"id": "c07c3316-b6df-4a2e-9a89-071c86addcb2",
+			"id": "252ebbf2-523d-4198-9d9e-a9262680b2fe",
 			"key": "accepted_delivery_OfferId",
 			"value": ""
 		},
 		{
-			"id": "d327be30-1ad3-490f-a137-a1a7d33b7b5c",
+			"id": "ad8f89d4-da8b-41e4-9be0-f976545c91f3",
 			"key": "orderID",
 			"value": ""
 		},
 		{
-			"id": "4e1ec154-0238-45b7-9c85-0ceca873dfd9",
+			"id": "d7813a9d-c2e0-4eff-b282-331021694219",
 			"key": "paymentSessionId",
 			"value": ""
 		},
 		{
-			"id": "643378d9-7ee2-4799-824d-808e2718ddf9",
+			"id": "fcfeaed1-1273-437b-9bac-60f5a26ce02f",
 			"key": "productID",
 			"value": ""
 		},
 		{
-			"id": "90561741-0c96-4124-9757-885a0b33b7a5",
+			"id": "d4690eaa-ef24-43ea-a83f-a746193bb340",
 			"key": "new_offer_tp_id",
 			"value": ""
 		},
 		{
-			"id": "1133905c-aa2a-47af-90b0-f380c63137dc",
+			"id": "f9574a44-d603-470a-a4b4-ab5681cb2925",
 			"key": "new_offer_nomer_id",
 			"value": ""
 		},
 		{
-			"id": "b8111ff5-cab7-47ce-8e1c-af35ac22ecb7",
+			"id": "0ef8a5cb-f583-48f5-bd99-be4f0c28b235",
 			"key": "url_prodlike",
 			"value": "https://ep-prodlike.mts-corp.ru/",
 			"type": "string"
 		},
 		{
-			"id": "386d1c16-889c-4f4a-8634-84d5cb0b583d",
+			"id": "a8007d3b-2966-4085-a5d2-47caadb95131",
 			"key": "telco_realese",
 			"value": "https://release.telco.mts.ru",
 			"type": "string"
 		},
 		{
-			"id": "00f19720-0d7b-455c-baea-9587f96926aa",
+			"id": "e280cb46-b535-4b30-a575-c2f08432354b",
 			"key": "telco_dev",
 			"value": "http://telcoapigateway-api.dev.mts-corp.ru/resource/reservation/availabilityCheck",
 			"type": "string"
 		},
 		{
-			"id": "4901e474-9d43-49b5-9fa7-d102b48c3546",
+			"id": "e9763736-8605-4abe-89ce-170df8ab0c53",
 			"key": "telco_test",
 			"value": "https://telcoapigateway-api.test.mts-corp.ru",
 			"type": "string"
 		},
 		{
-			"id": "296883c7-741a-42f3-9b4e-e210e27651fe",
+			"id": "1968ec91-6dc6-4afe-a8ed-8fcd0a28a26c",
 			"key": "offerID_mod_1",
 			"value": ""
 		}
