@@ -428,7 +428,15 @@
 					"name": "12. read_topic",
 					"id": "a1423b5f-ea25-4e02-9659-47adf7edf4d0",
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"content-length": true,
+							"content-type": true,
+							"user-agent": true,
+							"accept": true,
+							"accept-encoding": true,
+							"connection": true
+						}
 					},
 					"request": {
 						"method": "GET",
