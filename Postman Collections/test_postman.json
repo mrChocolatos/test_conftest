@@ -6063,104 +6063,85 @@
 	],
 	"variable": [
 		{
-			"id": "92087b61-59c7-4cf9-b71c-83f0af18742f",
 			"key": "url_stage",
 			"value": "https://gql.enp-stage.mts-corp.ru/graphql",
 			"type": "string"
 		},
 		{
-			"id": "bfa75f12-8b21-409c-9a4a-cb42a48e2682",
 			"key": "head_bundle_id",
 			"value": ""
 		},
 		{
-			"id": "1fb7877c-072d-471f-ba43-842489f95150",
 			"key": "offer_tp_id",
 			"value": ""
 		},
 		{
-			"id": "ed34cc5f-7086-4596-b09c-c08575f8fc64",
 			"key": "offer_sim_id",
 			"value": ""
 		},
 		{
-			"id": "7be389c6-5519-49c2-94e4-fbc0adf46f57",
 			"key": "offer_nomer_id",
 			"value": ""
 		},
 		{
-			"id": "9e42e5dd-00bb-4138-b8c5-25f4162691b2",
 			"key": "time_slot_id",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "37d108ed-2376-4d01-9969-8f880e961513",
 			"key": "delivery_OfferId",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "d3fecf36-42e0-4b3f-8b80-2aee13ed891f",
 			"key": "msisdn",
 			"value": ""
 		},
 		{
-			"id": "1d02701c-c1d5-462e-b42f-48f11b0d95ce",
 			"key": "accepted_delivery_OfferId",
 			"value": ""
 		},
 		{
-			"id": "892174f4-bfd2-464c-b6f6-2e01795b7afa",
 			"key": "orderID",
 			"value": ""
 		},
 		{
-			"id": "40e9eec3-7c33-42b9-bda1-7e7d9f17f2a6",
 			"key": "paymentSessionId",
 			"value": ""
 		},
 		{
-			"id": "0f219034-947c-4652-b016-096c1f54e8dd",
 			"key": "productID",
 			"value": ""
 		},
 		{
-			"id": "f221f8b5-3259-4297-a190-06ce0de4e5e4",
 			"key": "new_offer_tp_id",
 			"value": ""
 		},
 		{
-			"id": "a1749fb3-83e4-4726-94f2-9b911616ba19",
 			"key": "new_offer_nomer_id",
 			"value": ""
 		},
 		{
-			"id": "cb572909-38cd-4705-b7c8-3d292e2bf8e7",
 			"key": "url_prodlike",
 			"value": "https://ep-prodlike.mts-corp.ru/",
 			"type": "string"
 		},
 		{
-			"id": "27aa88ff-5051-48c5-a482-fe7c70433008",
 			"key": "telco_realese",
 			"value": "https://release.telco.mts.ru",
 			"type": "string"
 		},
 		{
-			"id": "9d342f8a-3b87-4f18-b2e0-a36e5ee624b1",
 			"key": "telco_dev",
 			"value": "http://telcoapigateway-api.dev.mts-corp.ru/resource/reservation/availabilityCheck",
 			"type": "string"
 		},
 		{
-			"id": "a263bb71-5c58-4f39-aaab-b8480b691bb6",
 			"key": "telco_test",
 			"value": "https://telcoapigateway-api.test.mts-corp.ru",
 			"type": "string"
 		},
 		{
-			"id": "a4e8e7b6-8519-4738-bc13-e2144a818056",
 			"key": "offerID_mod_1",
 			"value": ""
 		}
