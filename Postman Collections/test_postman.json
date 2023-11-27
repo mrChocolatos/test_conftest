@@ -467,6 +467,50 @@
 					"response": []
 				},
 				{
+					"name": "12. read_topic Copy",
+					"id": "c054b621-26f9-4af1-9a09-27ca815b96c2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"product_id\":\"1ee69067-cbbc-6101-aeef-10c938dd054c\", // айди продукта в инвентори\n    \"direction\":\"back\", // \"forward\" / \"back\" в какую сторону двигать дату вперед / назад\n    \"duration_unit\":\"month\", // \"day\" / \"month\" / \"year\"\n    \"duration_value\":1 // количество единиц времени\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/echrg-tariffication-charge/1ee73d90-28e5-6895-8255-8a761c65f17f/read",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"echrg-tariffication-charge",
+								"1ee73d90-28e5-6895-8255-8a761c65f17f",
+								"read"
+							],
+							"query": [
+								{
+									"key": "timestamp",
+									"value": "1697194723",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
 					"name": "12. Получить тестовый номер (витрина не работает)",
 					"id": "8491eafa-1558-4dfa-83ec-6678bb815d86",
 					"protocolProfileBehavior": {
