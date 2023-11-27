@@ -442,27 +442,7 @@
 							"mode": "raw",
 							"raw": "{\n    \"product_id\":\"1ee69067-cbbc-6101-aeef-10c938dd054c\", // айди продукта в инвентори\n    \"direction\":\"back\", // \"forward\" / \"back\" в какую сторону двигать дату вперед / назад\n    \"duration_unit\":\"month\", // \"day\" / \"month\" / \"year\"\n    \"duration_value\":1 // количество единиц времени\n}"
 						},
-						"url": {
-							"raw": "https://alpha-service.enp-tests.mts-corp.ru/eord/71eb493e-ad8f-4483-97f4-eee58ddc6960/read?timestamp=1697194723",
-							"protocol": "https",
-							"host": [
-								"alpha-service",
-								"enp-tests",
-								"mts-corp",
-								"ru"
-							],
-							"path": [
-								"eord",
-								"71eb493e-ad8f-4483-97f4-eee58ddc6960",
-								"read"
-							],
-							"query": [
-								{
-									"key": "timestamp",
-									"value": "1697194723"
-								}
-							]
-						}
+						"url": "https://alpha-service.enp-tests.mts-corp.ru/einvy-productinstance/1ee73d90-28e5-6895-8255-8a761c65f17f/read"
 					},
 					"response": []
 				},
