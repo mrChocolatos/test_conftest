@@ -450,7 +450,7 @@
 							"mode": "raw",
 							"raw": "{\n    \"product_id\":\"1ee69067-cbbc-6101-aeef-10c938dd054c\", // айди продукта в инвентори\n    \"direction\":\"back\", // \"forward\" / \"back\" в какую сторону двигать дату вперед / назад\n    \"duration_unit\":\"month\", // \"day\" / \"month\" / \"year\"\n    \"duration_value\":1 // количество единиц времени\n}"
 						},
-						"url": "https://alpha-service.enp-tests.mts-corp.ru/einvy-productinstance/1ee74d39-54dc-6eac-ace9-910b0f9de868/read"
+						"url": "https://alpha-service.enp-tests.mts-corp.ru/echrg-tariffication-charge/1ee74d39-54dc-6eac-ace9-910b0f9de868/read"
 					},
 					"response": []
 				},
