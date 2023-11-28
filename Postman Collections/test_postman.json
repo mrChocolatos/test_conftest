@@ -5968,7 +5968,7 @@
 									}
 								],
 								"url": {
-									"raw": "http://10.72.224.42:8135/api/v1/subscriptions?Msisdn=70007806377",
+									"raw": "http://10.72.224.42:8135/api/v1/subscriptions?Msisdn=70007806378",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -5985,7 +5985,7 @@
 									"query": [
 										{
 											"key": "Msisdn",
-											"value": "70007806377"
+											"value": "70007806378"
 										}
 									]
 								}
