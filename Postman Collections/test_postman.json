@@ -161,7 +161,7 @@
 							"mode": "graphql",
 							"graphql": {
 								"query": "mutation TerminateProduct($input: ProductOperationInput!) {\r\n  terminateProduct(input: $input) {\r\n    state\r\n    order {\r\n        id\r\n    }\r\n    errors {\r\n      code\r\n      message\r\n    }\r\n  }\r\n}",
-								"variables": "{\r\n  \"input\": {\r\n    \"channelSlug\": \"web//premium.mts.ru\",\r\n    \"productId\":  \"1ee8acf0-1301-629f-8813-b73f31c1e725\"\r\n  }\r\n}       "
+								"variables": "{\r\n  \"input\": {\r\n    \"channelSlug\": \"web//premium.mts.ru\",\r\n    \"productId\":  \"1ee8ddac-69d2-6ff4-9ace-3e59d5f7895f\"\r\n  }\r\n}       "
 							}
 						},
 						"url": "{{url_stage}}"
