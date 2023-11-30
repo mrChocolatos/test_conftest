@@ -3912,7 +3912,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"reservationItem\": [\n        {\n            \"demand\": {\n                 \"category\": \n                 [\n                     \"N\"\n                     //\"S\"//, \"S\", \"PL\", \"G\" //категория продаваемости: N - очередной тест, G - золотой, S - серебряный, ect.\n                 ],\n                 \"location\": \"7700000000000\", // принадлежит UPRS code 138020 Москва\n                \"duration\": 3,\n                \"resourceType\": { // тип резервируемого ресурса\n                    \"class\": \"PhoneNumber\",\n                    \"code\": \"F\"\n                }\n            },\n            \"resource\": [ // резервируемый ресурс\n                {\n                    \"code\": \"79188626413\", //номер телефона\n                    \"resourceId\": \"79188626413\", // для айтемов фориса указывается сам айтем, т.к. ID отсутствует\n                    \"resourceType\": {\n                        \"code\": \"F\" \n                    },\n                    \"@referredType\": \"14\",\n                    \"@type\": \"14\"\n                }\n            ]\n        }\n    ],\n    \"@type\": \"1\"\n}",
+									"raw": "{\n    \"reservationItem\": [\n        {\n            \"demand\": {\n                 \"category\": \n                 [\n                     \"N\"\n                     //\"S\"//, \"S\", \"PL\", \"G\" //категория продаваемости: N - очередной тест, G - золотой, S - серебряный, ect.\n                 ],\n                 \"location\": \"7700000000000\", // принадлежит UPRS code 138020 Москва\n                \"duration\": 3,\n                \"resourceType\": { // тип резервируемого ресурса\n                    \"class\": \"PhoneNumber\",\n                    \"code\": \"F\"\n                }\n            },\n            \"resource\": [ // резервируемый ресурс\n                {\n                    \"code\": \"79118648334\", //номер телефона\n                    \"resourceId\": \"79118648334\", // для айтемов фориса указывается сам айтем, т.к. ID отсутствует\n                    \"resourceType\": {\n                        \"code\": \"F\" \n                    },\n                    \"@referredType\": \"14\",\n                    \"@type\": \"14\"\n                }\n            ]\n        }\n    ],\n    \"@type\": \"1\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -3920,9 +3920,13 @@
 									}
 								},
 								"url": {
-									"raw": "{{telco_test}}/resource/reservation/",
+									"raw": "https://release.telco.mts.ru/resource/reservation/",
+									"protocol": "https",
 									"host": [
-										"{{telco_test}}"
+										"release",
+										"telco",
+										"mts",
+										"ru"
 									],
 									"path": [
 										"resource",
@@ -3962,7 +3966,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"productOfferingRef\": \"22642a3c-16bf-4f5b-8af3-69b651e8bab6\",\n    \"channelRef\": \"7643797b-e60c-46fa-95ed-acb86481036b\",\n    \"description\": \"Пример - резервирование сим карты под номер телефона\", //описание резерва\n    \"reservationItem\": [{\n        \"demand\": {\n            \"location\": \"7700000000000\", // принадлежит UPRS code 138020 Москва\n            \"quantity\": 1, //кол-во айтемов для резерва\n            \"resourceType\": {\n                \"class\": \"Simcard\", //класс оборудования\n                \"code\": \"LK\" //тип оборудования, метод работает с виртуальными сим: VR(виртуальная карта), MO(eUICC M2M виртуальная), EO(esim без физического носителя)\n            },\n            \"linkedResource\": {\n                \"code\": \"79118648044\", //код номера телефона полученного из запроса AvailabiltyCheck\n                \"@href\": \"https://hostname:port/ResourceManagement/resource/phonenumber/79118641817\",\n                \"resourceId\": \"79118648044\",\n                \"resourceType\": { \n                    \"class\": \"PhoneNumber\",\n                    \"code\": \"F\"\n                },\n                \"@referredType\": \"13\",\n                \"@type\": \"14\"\n            }\n        }\n    }],\n  \"@type\": \"string\"\n}",
+									"raw": "{\n    \"productOfferingRef\": \"22642a3c-16bf-4f5b-8af3-69b651e8bab6\",\n    \"channelRef\": \"7643797b-e60c-46fa-95ed-acb86481036b\",\n    \"description\": \"Пример - резервирование сим карты под номер телефона\", //описание резерва\n    \"reservationItem\": [{\n        \"demand\": {\n            \"location\": \"7700000000000\", // принадлежит UPRS code 138020 Москва\n            \"quantity\": 1, //кол-во айтемов для резерва\n            \"resourceType\": {\n                \"class\": \"Simcard\", //класс оборудования\n                \"code\": \"LK\" //тип оборудования, метод работает с виртуальными сим: VR(виртуальная карта), MO(eUICC M2M виртуальная), EO(esim без физического носителя)\n            },\n            \"linkedResource\": {\n                \"code\": \"79118648334\", //код номера телефона полученного из запроса AvailabiltyCheck\n                \"@href\": \"https://hostname:port/ResourceManagement/resource/phonenumber/79118641817\",\n                \"resourceId\": \"79118648334\",\n                \"resourceType\": { \n                    \"class\": \"PhoneNumber\",\n                    \"code\": \"F\"\n                },\n                \"@referredType\": \"13\",\n                \"@type\": \"14\"\n            }\n        }\n    }],\n  \"@type\": \"string\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -4024,12 +4028,12 @@
 								"header": [
 									{
 										"key": "x-mts-user",
-										"value": "NT AUTHORITY\\SYSTEM",
+										"value": "ADMSK\\sa0000enablementpl",
 										"type": "text"
 									},
 									{
 										"key": "x-consumer",
-										"value": "1",
+										"value": "EnablementPlatform",
 										"type": "text"
 									},
 									{
@@ -4041,14 +4045,14 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"reservationItem\": [\n        {\n            \"resource\": [\n                {\n          //\"duration\": 20,\n        //   \"code\": \"70011001004\",\n          \"resourceId\": \"79188622621\",\n          \"code\":\"79188622621\",\n        //    \"resourceType\": {\n        //     \"class\": \"PhoneNumber\",\n        //     \"code\": \"Federal\"\n        //    },\n        //    \"@href\": \"https://hostname:port/ResourceManagement/resource/phonenumber/70011001004\",\n           \"@referredType\": \"14\"\n        //    \"@type\": \"14\"\n        }\n            ]\n// \"resource\": [\n//                 {\n//           \"code\": \"70011001002\",\n//           \"resourceId\": \"70011001002\",\n//           \"resourceType\": {\n//             \"class\": \"PhoneNumber\",\n//             \"code\": \"Federal\"\n//           },\n//           \"@href\": \"https://hostname:port/ResourceManagement/resource/phonenumber/70011001002\",\n//           \"@referredType\": \"14\",\n//           \"@type\": \"14\"\n//         }\n//             ],\n//             \"resource\": [\n//                 {\n//           \"code\": \"70011001003\",\n//           \"resourceId\": \"70011001003\",\n//           \"resourceType\": {\n//             \"class\": \"PhoneNumber\",\n//             \"code\": \"Federal\"\n//           },\n//           \"@href\": \"https://hostname:port/ResourceManagement/resource/phonenumber/70011001003\",\n//           \"@referredType\": \"14\",\n//           \"@type\": \"14\"\n//         }\n//             ]\n        }\n    ],\n    \"@type\": \"string\",\n     \"validFor\": {\n    \"endTime\": \"2023-10-23T15:19:06.739Z\" //время окончания резерва\n     }\n}",
+									"raw": "{\n    \"reservationItem\": [\n        {\n            \"resource\": [\n                {\n          //\"duration\": 20,\n        //   \"code\": \"70011001004\",\n          \"resourceId\": \"79188622621\",\n          \"code\":\"79188622621\",\n        //    \"resourceType\": {\n        //     \"class\": \"PhoneNumber\",\n        //     \"code\": \"Federal\"\n        //    },\n        //    \"@href\": \"https://hostname:port/ResourceManagement/resource/phonenumber/70011001004\",\n           \"@referredType\": \"14\"\n        //    \"@type\": \"14\"\n        }\n            ]\n// \"resource\": [\n//                 {\n//           \"code\": \"70011001002\",\n//           \"resourceId\": \"70011001002\",\n//           \"resourceType\": {\n//             \"class\": \"PhoneNumber\",\n//             \"code\": \"Federal\"\n//           },\n//           \"@href\": \"https://hostname:port/ResourceManagement/resource/phonenumber/70011001002\",\n//           \"@referredType\": \"14\",\n//           \"@type\": \"14\"\n//         }\n//             ],\n//             \"resource\": [\n//                 {\n//           \"code\": \"70011001003\",\n//           \"resourceId\": \"70011001003\",\n//           \"resourceType\": {\n//             \"class\": \"PhoneNumber\",\n//             \"code\": \"Federal\"\n//           },\n//           \"@href\": \"https://hostname:port/ResourceManagement/resource/phonenumber/70011001003\",\n//           \"@referredType\": \"14\",\n//           \"@type\": \"14\"\n//         }\n//             ]\n        }\n    ],\n    \"@type\": \"string\",\n     \"validFor\": {\n    \"endTime\": \"2023-12-03T15:19:06.739Z\" //время окончания резерва\n     }\n}",
 									"options": {
 										"raw": {
 											"language": "json"
 										}
 									}
 								},
-								"url": "{{telco_test}}/resource/reservation/59ec90dd-183b-46b1-81d0-d799d274ba2d"
+								"url": "https://release.telco.mts.ru/resource/reservation/5caf567b-13ad-466b-81d3-5fd55405e28b"
 							},
 							"response": []
 						},
@@ -4168,11 +4172,16 @@
 								"header": [
 									{
 										"key": "x-mts-user",
-										"value": "ADMSK\\iasankov",
+										"value": "ADMSK\\sa0000enablementpl",
+										"type": "text"
+									},
+									{
+										"key": "x-consumer",
+										"value": "EnablementPlatform",
 										"type": "text"
 									}
 								],
-								"url": "{{telco_test}}/resource/reservation/f8946fc0-b747-432a-bb87-832f9255fdaa/cancellation"
+								"url": "https://release.telco.mts.ru/resource/reservation/5caf567b-13ad-466b-81d3-5fd55405e28b/cancellation"
 							},
 							"response": []
 						}
