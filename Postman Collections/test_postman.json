@@ -3815,15 +3815,7 @@
 							"id": "b33f5f98-a324-4fcd-8314-d84082ac8c64",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true,
-								"disabledSystemHeaders": {
-									"connection": true,
-									"accept-encoding": true,
-									"accept": true,
-									"user-agent": true,
-									"host": true,
-									"content-length": true,
-									"content-type": true
-								}
+								"disabledSystemHeaders": {}
 							},
 							"request": {
 								"auth": {
@@ -3846,14 +3838,12 @@
 									{
 										"key": "x-consumer",
 										"value": "EnablementPlatform",
-										"type": "text",
-										"disabled": true
+										"type": "text"
 									},
 									{
 										"key": "x-mts-user",
 										"value": "ADMSK\\sa0000enablementpl",
-										"type": "text",
-										"disabled": true
+										"type": "text"
 									}
 								],
 								"body": {
