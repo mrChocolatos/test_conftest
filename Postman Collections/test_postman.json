@@ -3817,6 +3817,15 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "oauth1",
+									"oauth1": {
+										"signatureMethod": "PLAINTEXT",
+										"version": "1.0",
+										"addParamsToHeader": false,
+										"addEmptyParamsToSign": false
+									}
+								},
 								"method": "POST",
 								"header": [
 									{
