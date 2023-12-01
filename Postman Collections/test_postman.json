@@ -3818,12 +3818,18 @@
 							},
 							"request": {
 								"auth": {
-									"type": "oauth1",
-									"oauth1": {
-										"signatureMethod": "PLAINTEXT",
-										"version": "1.0",
-										"addParamsToHeader": false,
-										"addEmptyParamsToSign": false
+									"type": "oauth2",
+									"oauth2": {
+										"clientSecret": "d678d93c-658b-4929-b09f-e8caa88c31ab",
+										"clientId": "kong-auth-dev",
+										"accessTokenUrl": "https://isso-dev.mts.ru/auth/realms/mts/protocol/openid-connect/token",
+										"grant_type": "client_credentials",
+										"redirect_uri": "",
+										"useBrowser": false,
+										"authUrl": "https://isso-dev.mts.ru/auth/realms/mts/protocol/openid-connect/token",
+										"tokenName": "TELCO_TOKEN",
+										"tokenType": "",
+										"addTokenTo": "header"
 									}
 								},
 								"method": "POST",
@@ -4189,7 +4195,35 @@
 							"response": []
 						}
 					],
-					"id": "30d56c01-464e-4f98-a3d5-2dca114fb855"
+					"id": "30d56c01-464e-4f98-a3d5-2dca114fb855",
+					"auth": {
+						"type": "oauth2",
+						"oauth2": {
+							"addTokenTo": "header"
+						}
+					},
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "bee4f198-ed7c-4213-a528-e38ee2feb522",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "92cebe73-4df3-4397-8e07-06197225900d",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
 				}
 			],
 			"id": "ee709802-d30f-4a0e-9f03-a0c335044c5c"
