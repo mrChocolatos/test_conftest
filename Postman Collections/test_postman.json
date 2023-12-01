@@ -4193,6 +4193,40 @@
 								"url": "https://release.telco.mts.ru/resource/reservation/5caf567b-13ad-466b-81d3-5fd55405e28b/cancellation"
 							},
 							"response": []
+						},
+						{
+							"name": "New Request",
+							"id": "61ef78b1-7f93-4f8d-87a9-2074fdaa908e",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-consumer",
+										"value": "EnablementPlatform"
+									},
+									{
+										"key": "x-mts-user",
+										"value": "ADMSK\\sa0000enablementpl"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJrTG1DckhGaFQxTmptV0NMVG0xcGY5V0FWN3FlVlg0N09CMFZjM215X3RBIn0.eyJleHAiOjE3MDE0MzQxNTUsImlhdCI6MTcwMTQzMzI1NSwianRpIjoiZDg1NWI1OGYtYjY0NC00OWVlLTliZGQtOWM4ODY0OTMwYjIwIiwiaXNzIjoiaHR0cHM6Ly9pc3NvLWRldi5tdHMucnUvYXV0aC9yZWFsbXMvbXRzIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjY2Mjg3MTZkLWUzZTktNDhlNC1iZTA5LWJlOWNmY2MzMDkwYSIsInR5cCI6IkJlYXJlciIsImF6cCI6ImtvbmctYXV0aC1kZXYiLCJhbGxvd2VkLW9yaWdpbnMiOlsiIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoicGhvbmUtaWQgZW1haWwtaWQgZW1wbG95ZWVJRC1pZCBvcGVuaWQgY29tcGFueS1pZCB1c2VybmFtZS1pZCBwcm9maWxlLWlkIHBob25lIHVzZXJuYW1lIGVtcGxveWVlSUQgcHJvZmlsZSBmdWxsbmFtZSBlbWFpbCBjb21wYW55IGZ1bGxuYW1lLWlkIiwiY2xpZW50SG9zdCI6IjEyNy4wLjAuMSIsImNsaWVudElkIjoia29uZy1hdXRoLWRldiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1rb25nLWF1dGgtZGV2IiwiY2xpZW50QWRkcmVzcyI6IjEyNy4wLjAuMSIsInVzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LWtvbmctYXV0aC1kZXYifQ.gI_zzOhnBZ6WYtftpJjIuyIzy_trlx4SkdRguquMaZlwWSa5PfTTpEGknaexiUUCkN8Q9aV8-mWVqe0K2wED3kzSFN2MfJmo85rGXXQzGHCMatDKkaLPDr0coij8LRLaJ1nnobsuws9FTTt4XTcHpGgWD0Z0l3S7Jmb8xQ6JHJwKMds3gRgA2XVd8dj4Y8431nXzXWy_4wfS_7-uYi4N99Bu1aQ9S_lkMcJD2fjCJkAQGtLzeFrYTgdGfiIIe335Y4OCferBH83PEfKovANMPJPs6CGUAoqXv0kGA0UmPf9JdG1W_ZEoOwTr0YfR-V-cQHExuMF5syrRqvqZ7Shetw"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"category\": [\n      \"N\"\n    ],\n    \"location\": \"7700000000000\", \n    \"mask\": \"79%\", \n    \"quantity\": 2, \n    \"resourceType\": {\n        \"class\": \"PhoneNumber\", \n        \"code\": \"F\" \n      }\n  }"
+								},
+								"url": "https://release.telco.mts.ru/resource/reservation/availabilityCheck"
+							},
+							"response": []
 						}
 					],
 					"id": "30d56c01-464e-4f98-a3d5-2dca114fb855",
