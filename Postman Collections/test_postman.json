@@ -3820,12 +3820,6 @@
 								"method": "POST",
 								"header": [
 									{
-										"key": "x-mts-user",
-										"value": "NT AUTHORITY\\NETWORK SERVICE",
-										"type": "text",
-										"disabled": true
-									},
-									{
 										"key": "x-consumer",
 										"value": "EnablementPlatform",
 										"type": "text"
