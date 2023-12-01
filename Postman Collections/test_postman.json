@@ -3815,15 +3815,7 @@
 							"id": "b33f5f98-a324-4fcd-8314-d84082ac8c64",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true,
-								"disabledSystemHeaders": {
-									"content-length": true,
-									"content-type": true,
-									"user-agent": true,
-									"host": true,
-									"accept": true,
-									"accept-encoding": true,
-									"connection": true
-								}
+								"disabledSystemHeaders": {}
 							},
 							"request": {
 								"auth": {
@@ -3846,14 +3838,12 @@
 									{
 										"key": "x-consumer",
 										"value": "EnablementPlatform",
-										"type": "text",
-										"disabled": true
+										"type": "text"
 									},
 									{
 										"key": "x-mts-user",
 										"value": "ADMSK\\sa0000enablementpl",
-										"type": "text",
-										"disabled": true
+										"type": "text"
 									}
 								],
 								"body": {
@@ -3912,12 +3902,28 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "oauth2",
+									"oauth2": {
+										"addTokenTo": "header",
+										"clientSecret": "d678d93c-658b-4929-b09f-e8caa88c31ab",
+										"clientId": "kong-auth-dev",
+										"accessTokenUrl": "https://isso-dev.mts.ru/auth/realms/mts/protocol/openid-connect/token",
+										"grant_type": "client_credentials",
+										"redirect_uri": "",
+										"useBrowser": false,
+										"authUrl": "https://isso-dev.mts.ru/auth/realms/mts/protocol/openid-connect/token",
+										"tokenName": "TELCO_TOKEN",
+										"tokenType": ""
+									}
+								},
 								"method": "POST",
 								"header": [
 									{
 										"key": "x-mts-uprs_code",
 										"value": "138020",
-										"type": "text"
+										"type": "text",
+										"disabled": true
 									},
 									{
 										"key": "x-mts-user",
@@ -3932,7 +3938,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"reservationItem\": [\n        {\n            \"demand\": {\n                 \"category\": \n                 [\n                     \"N\"\n                     //\"S\"//, \"S\", \"PL\", \"G\" //категория продаваемости: N - очередной тест, G - золотой, S - серебряный, ect.\n                 ],\n                 \"location\": \"7700000000000\", // принадлежит UPRS code 138020 Москва\n                \"duration\": 3,\n                \"resourceType\": { // тип резервируемого ресурса\n                    \"class\": \"PhoneNumber\",\n                    \"code\": \"F\"\n                }\n            },\n            \"resource\": [ // резервируемый ресурс\n                {\n                    \"code\": \"79118648334\", //номер телефона\n                    \"resourceId\": \"79118648334\", // для айтемов фориса указывается сам айтем, т.к. ID отсутствует\n                    \"resourceType\": {\n                        \"code\": \"F\" \n                    },\n                    \"@referredType\": \"14\",\n                    \"@type\": \"14\"\n                }\n            ]\n        }\n    ],\n    \"@type\": \"1\"\n}",
+									"raw": "{\n    \"reservationItem\": [\n        {\n            \"demand\": {\n                 \"category\": \n                 [\n                     \"N\"\n                     //\"S\"//, \"S\", \"PL\", \"G\" //категория продаваемости: N - очередной тест, G - золотой, S - серебряный, ect.\n                 ],\n                 \"location\": \"7700000000000\", // принадлежит UPRS code 138020 Москва\n                \"duration\": 15,\n                \"resourceType\": { // тип резервируемого ресурса\n                    \"class\": \"PhoneNumber\",\n                    \"code\": \"F\"\n                }\n            },\n            \"resource\": [ // резервируемый ресурс\n                {\n                    \"code\": \"79188629398\", //номер телефона\n                    \"resourceId\": \"79188629398\", // для айтемов фориса указывается сам айтем, т.к. ID отсутствует\n                    \"resourceType\": {\n                        \"code\": \"F\" \n                    },\n                    \"@referredType\": \"14\",\n                    \"@type\": \"14\"\n                }\n            ]\n        }\n    ],\n    \"@type\": \"1\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
