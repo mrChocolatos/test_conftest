@@ -37,7 +37,7 @@
 								"variables": "{\r\n    \"filter\": {\r\n        \"channel\": \"web//personal.mts.ru\",\r\n        \"productSpecification\": {\r\n            \"slugs\": [\"mts-premium\"]\r\n        },\r\n        \"customer\": {\r\n            \"msisdn\": \"79188628352\",\r\n            \"isSubscriber\": false,\r\n            \"subscriberRegion\": \"138020\"\r\n        }\r\n    }\r\n}"
 							}
 						},
-						"url": "{{url_stage}}"
+						"url": "https://gw-test.intp-dev.mts-corp.ru/ep-gql-stage/v1"
 					},
 					"response": []
 				},
