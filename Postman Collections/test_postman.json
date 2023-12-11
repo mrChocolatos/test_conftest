@@ -4015,7 +4015,7 @@
 									}
 								},
 								"url": {
-									"raw": "https://release.telco.mts.ru/resource/reservation",
+									"raw": "https://release.telco.mts.ru/resource/reservation/availabilityCheck",
 									"protocol": "https",
 									"host": [
 										"release",
@@ -4025,7 +4025,8 @@
 									],
 									"path": [
 										"resource",
-										"reservation"
+										"reservation",
+										"availabilityCheck"
 									],
 									"query": [
 										{
