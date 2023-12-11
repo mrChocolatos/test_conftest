@@ -4132,7 +4132,7 @@
 										}
 									}
 								},
-								"url": "{{telco_test}}/resource/reservation/07a0a16e-a261-4dc9-889a-abcf89a99270"
+								"url": "https://release.telco.mts.ru/resource/reservation/07a0a16e-a261-4dc9-889a-abcf89a99270"
 							},
 							"response": []
 						},
@@ -4163,9 +4163,13 @@
 									}
 								],
 								"url": {
-									"raw": "{{telco_test}}/resource/reservation/a55c52d5-ecc0-4158-a04d-d4d304749a7f",
+									"raw": "https://release.telco.mts.ru/resource/reservation/a55c52d5-ecc0-4158-a04d-d4d304749a7f",
+									"protocol": "https",
 									"host": [
-										"{{telco_test}}"
+										"release",
+										"telco",
+										"mts",
+										"ru"
 									],
 									"path": [
 										"resource",
