@@ -141,7 +141,7 @@
 							"mode": "graphql",
 							"graphql": {
 								"query": "mutation doChargeTariffication ($input: ChargeTarifficationInput!) {\r\n    doChargeTariffication (input: $input) {\r\n        ... on OperationState {\r\n            state\r\n        }\r\n        ... on Error {\r\n            code\r\n            message\r\n        }\r\n    }\r\n}",
-								"variables": "{\r\n  \"input\": {\r\n    \"productId\":  \"1ee8ddac-69d2-6ff4-9ace-3e59d5f7895f\"\r\n  }\r\n}"
+								"variables": "{\r\n  \"input\": {\r\n    \"productId\":  \"1ee9917f-874c-617e-a02f-f01dde73039b\"\r\n  }\r\n}"
 							}
 						},
 						"url": "{{url_stage}}"
