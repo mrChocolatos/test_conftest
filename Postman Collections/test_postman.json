@@ -42,6 +42,39 @@
 					"response": []
 				},
 				{
+					"name": "1. productOffers - Акцептор",
+					"id": "6940ae6c-1261-43ba-8ef4-ff0053a41d6e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImE5NjRhNWVhLWRlNGQtNGQ5Zi1hYmQ1LTA4MzBlYjE1ZDlmOSIsInR5cCI6IkpXVCJ9.eyJhdWQiOltdLCJjbGllbnRfaWQiOiI5YWM3M2YxZi03YmFmLTQyOGUtYjViYS01ZTBiMmM3N2U3MzQiLCJleHAiOjMyNzY5MjEwMjAsImV4dCI6e30sImlhdCI6MTcwMDEyMTAyMCwiaXNzIjoiaHR0cHM6Ly9hdXRoLmludHAtZGV2Lm10cy1jb3JwLnJ1IiwianRpIjoiMmE3NGI4NWQtOTE4Ni00YWZiLTg3ODEtMjVjYmI5MmQ4YmE3IiwibmJmIjoxNzAwMTIxMDIwLCJzY3AiOltdLCJzdWIiOiI5YWM3M2YxZi03YmFmLTQyOGUtYjViYS01ZTBiMmM3N2U3MzQifQ.ilH0owoPusuE5IVjGloYtGSPSLD4MwQJtyLXVFgFZQmDypAKSwIrYpnVqLBYWC0MJPQSx1vELbQmoBqBcmB1a61Vv6fbC-P_VrVo0UdAv5E8SKF7seqpA41O942d1ZPX6ZEWkuGUdCEygByUJsbPm5TdoifhOB6AbeeDAi0P_j9AWmpDFHRnNM0VpQZXpnkG4ymJTq2Ru3WRMFfFAEhMPbGPCF0AoyUwgqhomRjO9WdTDBRxrGd8iaMn-14j17gfRlTSK866ibqBhX4PMdgi5NhVkunsTSYVVzYU6ZQ4ez7Y3pCAXpwv6vs1EaDZmWQueMLjVaMP6RsaksLDZdQDvWuvjxjHpDpUPxT3n64iqgApRhQagrFapgKo6bAuybI0smxvDDnEncK9EpQj-rbQ9-L2UeYceG1dVNas8AhS-4vveTM9t-hiux12SE_ig0HNnI47goKYGiFlqTQqobm2_iKifbXv4X7y3bMzL34TNEVZmUorhTqnijB1MQDvZBRuqBKRbwJlyJ8-KSeiGrFztVso5KqjWBzmuU7txizdAkymfd4ga_F9LqRX0ndNX8uDEgfkqt17yxs7PfJKwzZp4yV8HGNhf1K9bjM7CyG2gTJRpZqdZhfkMmkSjfiHIUttsXHaHO_ulRA6wqXSV2eFQUQUc7JYSAbWQ1ZUx_QVuvk"
+							}
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Access_token",
+								"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImE5NjRhNWVhLWRlNGQtNGQ5Zi1hYmQ1LTA4MzBlYjE1ZDlmOSIsInR5cCI6IkpXVCJ9.eyJhdWQiOltdLCJjbGllbnRfaWQiOiIxMjgyYmUyYi1kYjk1LTQ1MTgtYWMxOC0wYTMyOTEzNjBlMDAiLCJleHAiOjMyNzYyNjYyMzIsImV4dCI6e30sImlhdCI6MTY5OTQ2NjIzMiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmludHAtZGV2Lm10cy1jb3JwLnJ1IiwianRpIjoiOTgwMDBmN2ItOTM3ZS00ZTg2LWJlN2YtOTZjYWMzMGJkMGZiIiwibmJmIjoxNjk5NDY2MjMyLCJzY3AiOltdLCJzdWIiOiIxMjgyYmUyYi1kYjk1LTQ1MTgtYWMxOC0wYTMyOTEzNjBlMDAifQ.w90DnN4lHkWIt3i3sP9IIm_aWiMKysvZrhSuqFder5GEc4Qh_ngZ7BdX3umSeQUmO4rDrUO68CSvRAGUitMOuUtMw9DuEEx9l9FvBqgUXj3OhLbXItBHArF8pSKByEZ6tujBmahAjd2WQmn7aW5KUUB5NGEr59S2jpl3N4DyLPGRrBqLYgQC2Oz7x0jZ_1pHsWsSG9_oKEe7DHb4QB46OA1fXwKXx6LL_VFXpsAK5hhfLZV71W1JmDl8_V39sQqGUHbDvBa0cauFQko_fnrbMkx0IiQ8LHNh9QZwo6Kuq5fQhT6sxz_U43bCLrnqMZ5zN0x9baUUSIUUfI4NqGo0o_JgJLBzuwwWK7wTHf4_Fr8Fd_LmFgwbsTNioE2dKZxjJMJNF2wmbUpAa70Sx_jLyb07lpHGQLX6Ij0ZgpR7HepZNas12uJM9Fq_ZGG_rK5aoyCZe7sdBdEZUYmHJu5dy6_UrmUEoc_a_mvTpehsdXz8l4I7shNEEMmyxsaWEuTeHttn4SDEJYEuU_aOQfg3qlm_KxnRBAvTevD9MYax34tvVjky3D-C3-RoqH4dF0oxYr79Tk9vAU-ZBYul7n9Ai4VyI5ZJCdwvHtBOEIDwwyegEgkmCOL8JZfcQXjjFRYqbD-mbBZrYFrBj9-GaF8ATOW2pdnI4jiAtpktUAhZ5Fg",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query Node($filter: ProductOfferFilterInput) {\r\n  productOffers(filter: $filter) {\r\n    edges {\r\n      node {\r\n        customer {\r\n          msisdn\r\n          id\r\n        }\r\n        id\r\n        quantity\r\n        specification {\r\n          slug\r\n          version\r\n          general {\r\n            name\r\n            description\r\n            shortDescription\r\n          }\r\n        }\r\n        tariffComponents {\r\n          prices {\r\n            type\r\n            amount {\r\n              amount\r\n              currency\r\n            }\r\n          }\r\n        }\r\n        priceList {\r\n          firstPrice {\r\n            amount {\r\n              base\r\n              result\r\n              currency\r\n            }\r\n          }\r\n          basePrice {\r\n            amount {\r\n              base\r\n              result\r\n              currency\r\n            }\r\n          }\r\n          connectionPrice {\r\n            amount {\r\n              base\r\n              result\r\n              currency\r\n            }\r\n          }\r\n          regularPrice {\r\n            chargingInterval {\r\n              duration\r\n              unit\r\n            }\r\n          }\r\n        }\r\n        touchPointView {\r\n          general {\r\n            name\r\n            description\r\n            shortDescription\r\n          }\r\n                    parameters {\r\n            customerEditable {\r\n              alias\r\n              availableValues {\r\n                ... on ParameterListValue {\r\n                  unit\r\n                  valueType\r\n                  values\r\n                }\r\n                ... on ParameterRangeValue {\r\n                  unit\r\n                  valueFrom\r\n                  valueStep\r\n                  valueTo\r\n                  valueType\r\n                }\r\n                ... on ParameterSingleValue {\r\n                  unit\r\n                  value\r\n                  valueType\r\n                }\r\n              }\r\n              defaultValue {\r\n                unit\r\n                value\r\n                valueType\r\n              }\r\n              itemAlias\r\n              marketingName\r\n              value {\r\n                unit\r\n                value\r\n                valueType\r\n              }\r\n            }\r\n            predefined {\r\n              alias\r\n              defaultValue {\r\n                unit\r\n                value\r\n                valueType\r\n              }\r\n              itemAlias\r\n              marketingName\r\n              value {\r\n                unit\r\n                value\r\n                valueType\r\n              }\r\n            }\r\n          }\r\n          items {\r\n            customerEditable {\r\n              ... on ProductItem {\r\n                alias\r\n                general {\r\n                  name\r\n                  description\r\n                  shortDescription\r\n                }\r\n                isEnabled\r\n              }\r\n              ... on ServiceItem {\r\n                alias\r\n                general {\r\n                  name\r\n                  description\r\n                  shortDescription\r\n                }\r\n                isEnabled\r\n              }\r\n              ... on ResourceItem {\r\n                alias\r\n                general {\r\n                  name\r\n                  description\r\n                  shortDescription\r\n                }\r\n                isEnabled\r\n              }\r\n            }\r\n            predefined {\r\n              ... on ProductItem {\r\n                alias\r\n                general {\r\n                  name\r\n                  description\r\n                  shortDescription\r\n                }\r\n                isEnabled\r\n              }\r\n              ... on ServiceItem {\r\n                alias\r\n\r\n                isEnabled\r\n              }\r\n              ... on ResourceItem {\r\n                alias\r\n                general {\r\n                  name\r\n                  description\r\n                  shortDescription\r\n                }\r\n                isEnabled\r\n              }\r\n            }\r\n          }\r\n        }\r\n      }\r\n    }\r\n  }\r\n}",
+								"variables": "\r\n{\r\n  \"filter\": {\r\n    \"channel\": \"web//premium.mts.ru\",\r\n    \"productSpecification\": {\r\n      \"slugs\": \"mts-premium\"\r\n    },\r\n    \"customer\": {\r\n      \"msisdn\": \"79850310246\"\r\n    },\r\n    \"offerConfigurationParameters\": {\r\n      \"parameters\": [\r\n        {\r\n          \"alias\": \"ownerId\",\r\n          \"value\": \"79525202534\"\r\n        }\r\n      ]\r\n    }\r\n  }\r\n}"
+							}
+						},
+						"url": "https://gw-test.intp-dev.mts-corp.ru/ep-gql-stage/v1"
+					},
+					"response": []
+				},
+				{
 					"name": "1.1 productOffers - Получение оффера на ТК",
 					"id": "d50e54ad-4379-46d0-b95c-54e093e5a710",
 					"protocolProfileBehavior": {
