@@ -5670,7 +5670,7 @@
 								"body": {
 									"mode": "graphql",
 									"graphql": {
-										"query": "mutation {\r\n  failProductOrder (productOrderId:\"1ee9a8b5-b8e9-681f-96c5-e825433073e0\")  {\r\n    order {\r\n      id\r\n      state\r\n    }\r\n    errors {\r\n      code\r\n      message\r\n    }\r\n    state\r\n  }\r\n}",
+										"query": "mutation {\r\n  failProductOrder (productOrderId:\"1ee9b281-4919-631d-85d8-b915a0ea35d5\")  {\r\n    order {\r\n      id\r\n      state\r\n    }\r\n    errors {\r\n      code\r\n      message\r\n    }\r\n    state\r\n  }\r\n}",
 										"variables": ""
 									}
 								},
@@ -5711,7 +5711,7 @@
 									"mode": "graphql",
 									"graphql": {
 										"query": "mutation TerminateProductInstance($terminateProductInstanceId: ID!, $input: TerminateProductInstanceInputV2!) {\r\n  terminateProductInstance(id: $terminateProductInstanceId, input: $input) {\r\n    modifiedProduct {\r\n      id\r\n      status\r\n    }\r\n  }\r\n}",
-										"variables": "{\r\n  \"input\": {\r\n    \"correlationId\": \"{{$guid}}\"\r\n  },\r\n  \"terminateProductInstanceId\": \"1ee9a8b5-b8e9-681f-96c5-e825433073e0\"\r\n}"
+										"variables": "{\r\n  \"input\": {\r\n    \"correlationId\": \"{{$guid}}\"\r\n  },\r\n  \"terminateProductInstanceId\": \"1ee9b281-4919-631d-85d8-b915a0ea35d5\"\r\n}"
 									}
 								},
 								"url": "{{url_stage}}"
