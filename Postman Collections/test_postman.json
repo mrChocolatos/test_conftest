@@ -421,6 +421,11 @@
 							{
 								"key": "content-type",
 								"value": "application/json"
+							},
+							{
+								"key": "Correlation-ID",
+								"value": "{{$guid}}",
+								"type": "text"
 							}
 						],
 						"body": {
