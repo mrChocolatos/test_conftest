@@ -5697,7 +5697,7 @@
 								"body": {
 									"mode": "graphql",
 									"graphql": {
-										"query": "mutation {\r\n  failProductOrder (productOrderId:\"aa1f032f-8783-425b-aeac-6002750589bd\")  {\r\n    order {\r\n      id\r\n      state\r\n    }\r\n    errors {\r\n      code\r\n      message\r\n    }\r\n    state\r\n  }\r\n}",
+										"query": "mutation {\r\n  failProductOrder (productOrderId:\"84eb558e-7ecd-420c-a5ad-4012f85bc248\")  {\r\n    order {\r\n      id\r\n      state\r\n    }\r\n    errors {\r\n      code\r\n      message\r\n    }\r\n    state\r\n  }\r\n}",
 										"variables": ""
 									}
 								},
