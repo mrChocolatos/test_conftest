@@ -1248,7 +1248,41 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "http://127.0.0.1:5000/rtm/esubm-beforecharge-event/79118645997/read"
+						"url": "http://127.0.0.1:5000/rtm/ESUBM-BEFORECHARGE-EVENTS/79118645997/read"
+					},
+					"response": []
+				},
+				{
+					"name": "New Request Copy",
+					"id": "e064e8e2-5e39-4230-80a7-264516e94cfb",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+							}
+						],
+						"url": "http://rtmtestdocker01:9092/kafkaui/api/clusters/kafka_test/topics/ESUBM-BEFORECHARGE-EVENTS"
 					},
 					"response": []
 				}
