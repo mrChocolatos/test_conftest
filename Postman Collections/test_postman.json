@@ -1238,6 +1238,19 @@
 						"url": "https://gql.enp-stage.mts-corp.ru/graphql"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "2a676a42-54f6-4e9c-975b-3eed76a3c6fb",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://127.0.0.1:5000/rtm/esubm-beforecharge-event/2023-12-21T19:20:49.000Z/read"
+					},
+					"response": []
 				}
 			],
 			"id": "43de47b0-866c-4431-a3c5-947026ae5e29"
