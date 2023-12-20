@@ -1282,7 +1282,7 @@
 								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 							}
 						],
-						"url": "http://rtmtestdocker01:9092/kafkaui/api/clusters/kafka_test/topics/ESUBM-BEFORECHARGE-EVENTS"
+						"url": "http://rtmtestdocker01.mts.ru:9092/kafkaui/api/clusters/kafka_test/topics/ESUBM-BEFORECHARGE-EVENTS"
 					},
 					"response": []
 				}
